@@ -37,14 +37,4 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
-
-  build: {
-    extend (config) {
-      config.module.rules.push({
-        test: /\.mjs$/,
-        include: /node_modules/,
-        type: "javascript/auto"
-      })
-    }
-  }
 }
